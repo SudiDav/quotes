@@ -1,0 +1,36 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border: solid 1px darkblue;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 400px;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.btn {
+  border-radius: 10px;
+  width: 100px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+.author {
+  font-weight: bold;
+  font-size: large;
+  font: optional;
+}
+.quote {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
